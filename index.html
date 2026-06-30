@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kantareshwar Interior offers POP, carpentry, electrician, and plumbing services in Surat, Gujarat."
+    />
+    <title>Kantareshwar Interior | Quality Work with Precision</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-wrap" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Kantareshwar Interior home">
+          <img
+            src="images/Kantareshwar_Interior_Logo.jpeg"
+            alt="Kantareshwar Interior logo"
+          />
+          <span>Kantareshwar Interior</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-cta" href="https://wa.me/919033923394" target="_blank" rel="noopener">
+            WhatsApp
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Interior services in Surat</p>
+          <h1>Quality work with precision</h1>
+          <p>
+            Reliable POP, furniture, wiring, and plumbing work for homes, shops, and interior
+            projects.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://wa.me/919033923394" target="_blank" rel="noopener">
+              Contact on WhatsApp
+            </a>
+            <a class="button secondary" href="#services">View Services</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services-section">
+        <div class="section-heading">
+          <p class="eyebrow">Services we provide</p>
+          <h2>Complete interior support from structure to finish</h2>
+          <p>
+            Choose a category to see the work areas handled by Kantareshwar Interior.
+          </p>
+        </div>
+
+        <div class="service-tabs" role="tablist" aria-label="Service categories">
+          <button class="tab-button active" type="button" role="tab" aria-selected="true" data-category="pop">
+            POP
+          </button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" data-category="carpenter">
+            Carpenter
+          </button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" data-category="electrician">
+            Electrician
+          </button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" data-category="plumbing">
+            Plumbing
+          </button>
+        </div>
+
+        <div class="category-feature" id="categoryFeature"></div>
+        <div class="service-grid" id="serviceGrid" aria-live="polite"></div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="about-copy">
+          <p class="eyebrow">About us</p>
+          <h2>Local interior workmanship for Surat homes and businesses</h2>
+          <p>
+            Kantareshwar Interior helps customers plan and complete essential interior work with
+            practical material choices, careful finishing, and direct coordination with the owner.
+          </p>
+          <address>
+            4/95 Begam Pura,<br />
+            Surat, Gujarat, India.
+          </address>
+        </div>
+        <div class="map-panel">
+          <iframe
+            title="Kantareshwar Interior address map"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=4%2F95%20Begam%20Pura%2C%20Surat%2C%20Gujarat%2C%20India&output=embed"
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div>
+          <p class="eyebrow">Contact us</p>
+          <h2>Talk directly with the owner</h2>
+          <p>
+            Send a message on WhatsApp or call for service details, site visits, and project
+            discussion.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="https://wa.me/919033923394" target="_blank" rel="noopener">
+            WhatsApp +91 90339 23394
+          </a>
+          <a class="button secondary" href="tel:+919033923394">Call Now</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Kantareshwar Interior. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
